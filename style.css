@@ -185,8 +185,8 @@
         align-items: center;
     }    
         .icon-item img{
-            width: 100px;
-            height: 100px;
+            width: 90px;
+            height: 90px;
         }
         .icon-item h4{
             font-size: 20px;
@@ -196,6 +196,9 @@
         }
         
         .box2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
             width:90%;
             height:50%;
             background-color: rgb(214, 182, 243);
@@ -212,13 +215,30 @@
             border-color: magenta;
             margin-left: 100px;
         }
+        .form-message{
+            width:400px;
+            border-style: 2px solid magenta;
+            border-color: magenta;
+            margin-left: 100px;
+        }
+        .submit {
+            margin-left:400px;
+            margin-top:20px;
+            height:40px;
+            width:100px;
+            border-style: 2px solid magenta;
+            border-color: magenta;
+        }
 
         .container-main-contact h1{
             font-size: 30px;
             font-family: 'Lobster', cursive;
             color: magenta;
-           
         }
+        .box2 h1{
+            margin-left:200px;
+        }
+
         /* About page starts here. In contact page I used the same container-nav and button-nav for styling */
         .container-main-about {
             display: flex;
@@ -239,3 +259,4 @@
                  background-color: rgb(214, 182, 243);
                  margin-bottom: 50px;
              }
+
