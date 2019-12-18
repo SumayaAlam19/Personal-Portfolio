@@ -71,35 +71,32 @@
 
  /* Blog page styling starts from below  */
 
-.container-main-blog {
+ .blogpage{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 90vh;
+    justify-content: center;
+    align-items:center;
+    background-image:url("docs/fuji.png");
+    background-repeat:no-repeat ;
+    background-size: 100% 100%;
+}
+   .blogtitle{
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    margin-top: 30px;
+    }
+    /*container-main-blog contains the boxes of he bogs*/
+ .container-main-blog {
         display: flex;
         flex-wrap: wrap;
         width: 100%;
         height: 80%;
         justify-content: center;
         align-items:flex-end;
-    
-        } 
-    .blogpage{
-        display: flex;
-        flex-direction: column;
-        width: 100vw;
-        height: 90vh;
-        justify-content: center;
-        align-items:center;
-        background-image:url("docs/fuji.png");
-        background-repeat:no-repeat ;
-        background-size: 100% 100%;
-        
-    }
-    .blogtitle{
-        font-size: 60px;
-        text-align: center;
-        font-family: 'Lobster', cursive;
-        margin-top: 30px;
-
-    } 
-
+    }  
     .box{
         box-sizing:border-box;
         height:40vh;
@@ -108,7 +105,6 @@
         padding:2px;
         border: 5px dotted black;
         border-radius: 20px;
-
     } 
     .box-blue {
         background-color: rgb(109, 188, 224);
@@ -128,7 +124,6 @@
         padding:2px;
         border: 5px dotted black;
         border-radius: 20px;
-
     } 
     /* Contact page starts here. In contact page I used the same container-nav and button-nav for styling */
     .container-main-contact {
@@ -143,14 +138,13 @@
         background-repeat:no-repeat ;
         background-size: 100% 100%;
     }
-
-         .box1{
+        .box1{
              width:90%;
              height:20%;
              background-color: rgb(214, 182, 243);
              margin-bottom: 50px;
          }
-
+    /* class "icon-container" was used to style the icons of Github and Linkedin*/ 
     .icon-container{
         display:flex;
         direction:row;
@@ -167,7 +161,6 @@
             color: rgb(19, 17, 17);
             margin-left: 15px;
         }
-        
         .box2{
             display: flex;
             justify-content: center;
@@ -176,6 +169,7 @@
             height:50%;
             background-color: rgb(214, 182, 243);
         }
+        /*class "form-text"  and class "form-input" was used to style the form*/
         .form-text{
             font-size: 30px;
             font-family: 'Lobster', cursive;
@@ -194,6 +188,7 @@
             border-color: magenta;
             margin-left: 100px;
         }
+        /* styling submit button with class "submit"*/
         .submit {
             margin-left:400px;
             margin-top:20px;
@@ -212,7 +207,7 @@
             margin-left:200px;
         }
 
-        /* About page starts here. In about page I used the same container-nav and button-nav for styling */
+        /* About page starts here from below. In about page I used the same container-nav and button-nav for styling */
         .container-main-about {
             display: flex;
             flex-direction: column;
