@@ -38,7 +38,7 @@
     height: 90vh;
     justify-content: center;
     align-items:center;
-    background-image:url("docs/sakura.png"); 
+    background-image:url("docs/2nd-version.png"); 
     background-repeat:no-repeat ;
     background-size: 100% 100%;
 }
@@ -88,7 +88,7 @@
         height: 90vh;
         justify-content: center;
         align-items:center;
-        background-image:url("docs/fuji.png");
+        background-image:url("docs/2nd-version.png");
         background-repeat:no-repeat ;
         background-size: 100% 100%;
         
@@ -140,7 +140,7 @@
         height: 90vh;
         justify-content: center;
         align-items:center;
-        background-image:url("docs/sakura2.png");
+        background-image:url("docs/2nd-version.png");
         background-repeat:no-repeat ;
         background-size: 100% 100%;
     }
@@ -222,7 +222,7 @@
             height: 90vh;
             justify-content: start;
             align-items: start;
-            background-image:url("docs/sakura3.png");
+            background-image:url("docs/2nd-version.png");
             background-repeat:no-repeat ;
             background-size: 100% 100%;
         }
