@@ -1,5 +1,7 @@
+## I have designed the portfolio at 67%. so please zoom it in 67% while you look into it.
+
 ### The link (URL) to my published portfolio website is as below:
-[Portfolio](http://127.0.0.1:5500/portfolio-home.html)
+[Portfolio]https://modest-booth-196b72.netlify.com/)
 
 ### The link to my GitHub repository (repo) is as below:
 [GitHub](https://github.com/SumayaAlam19/Personal-Portfolio)
