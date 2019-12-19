@@ -1,4 +1,5 @@
-## I have designed the portfolio at 67%. so please zoom it in 67% while you look into it.
+## Note:
+I came to know at the very last minute that I have designed the portfolio at 67%. So please zoom it in 67% while you look into it. 
 
 ### The link (URL) to my published portfolio website is as below:
 [Portfolio]https://modest-booth-196b72.netlify.com/)
